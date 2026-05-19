@@ -36,8 +36,7 @@ export function CommentsPage() {
         <>
             <section id="center">
                 <div>
-                    <h1>Reddit 2</h1>
-                    <p>the <b>brains</b> 🧠 of the internet</p>
+                    <h1>Status</h1>
                     {
                         commentBoard ?
                             commentBoard.map((comment, index) => (
