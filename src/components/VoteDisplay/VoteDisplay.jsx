@@ -11,10 +11,10 @@ const VoteDisplay = ({votes,onVote}) => {
             <p align='right'>
                 <i style={{color: voteColor}}>{votes} updoots</i>
                 <button onClick={() => onVote(true)} className={styles.button}>
-                    <img src="public/assets/updoot.png" className={styles.img}/>
+                    <img src="/assets/updoot.png" className={styles.img}/>
                 </button>
                 <button onClick={() => onVote(false)} className={styles.button}>
-                    <img src="public/assets/downdoot.png" className={styles.img}/>
+                    <img src="/assets/downdoot.png" className={styles.img}/>
                 </button>
 
             </p>
